@@ -45,6 +45,7 @@ li{
     padding: 8px;
     border: 0.5px solid #483C32;
     border-radius: 60px;
+    list-style: none;
 }
 
 
@@ -86,16 +87,6 @@ nav{
     width: 30%;
     margin-top: 40px; 
     margin-left: 0px
-}
-
-ul {
-    justify-content: space-around;
-}
-
-li{
-    display: inline;
-    justify-content: space-between;
-    margin-left: 30px;    
 }
 
 li:hover{
