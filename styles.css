@@ -1,0 +1,125 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: block;
+    
+    height: 150px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #d1a267;
+}
+.header a{
+    display: inline;
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Secular One', sans-serif;
+    margin: 20px 10px 10px 0px;
+    font-size: 70px;
+    width: 35% ;
+    border-radius: 50px;    
+    background-color: #debd8f;
+    color: #483C32;
+    
+}
+
+h4{
+    display: inline;
+    position: absolute;
+    margin: 60px 10px 10px 110px;
+    font-size: 25px;
+}
+
+nav{
+    display: inline;
+    float: right;
+    width: 30%;
+    margin-top: 40px; 
+    margin-left: 0px
+}
+
+ul {
+    justify-content: space-around;
+}
+
+li{
+    display: inline;
+    justify-content: space-between;
+    margin-left: 30px;    
+}
+
+li:hover{
+    text-decoration: underline;
+    color: #483C32;
+    font-style: italic;
+}
+
+div{
+    display: inline-block;    
+}
+
+.nosotros{
+    background-color: #debd8f;
+}
+
+.historia{
+    position: absolute;
+}
+
+h2{
+    padding: 10px;
+    font-size: 45px;
+    color:#483C32
+}
+
+p{
+    padding: 10px;
+    font-size:  18px
+}
+
+.contacto{
+    padding: 30px;
+    background-color: #d1a267;
+}
+
+.contacto h2{
+    text-align: center;
+}
+
+.ubicacion{
+    margin-left: 300px;
+    background-color: #debd8f;   
+}
+
+.redes{
+    position: absolute;
+    margin: 50px 0 80px 250px;
+    background-color: #debd8f; 
+}
+
+.Whatsapp{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.Instagram{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+a{
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px
+    
+}
