@@ -5,27 +5,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     </head>
     <body>
-        <header class="nav">
-            <h1 class=>Panaderia La Flor</h1>
-            <h4 class=>Desde 1959 junto a vos</h4>
-            <nav>
-                <ul class=>
-                        <li class=><a href="#nos">NOSOTROS</a></li>
-                        <li class=><a href="#contact">CONTACTO</a></li>
-                        <li class=><a href="index2.html">CATALOGO</a></li>
+        <div class="conteiner-fluid">
+            <div class="arriba row">
+                <div class="col-9">
+                    <h1 class="titulo">PANADERIA LA FLOR</h1>
+                </div>
+                <div class="col-3 nav">
+                    <ul>
+                        <li class><a href="#nos">NOSOTROS</a></li>
+                        <li class><a href="#contact">CONTACTO</a></li>
+                        <li class><a href="index2.html">CATALOGO</a></li>
                     </ul>
-            </nav>
-            
-</header>
-        <section class="nosotros" id="nos">
-            <div>
-                <img src="Imagenes/panes.jpeg">
+
+                </div>
             </div>
-            <div class="historia">
-                <h2>NOSOTROS</h2>
-                <P> Somos una panaderia familiar con más 60 años de historia. 
+            <div class="nosotros row" id="nos">
+                <h1 CLASS="col-12">NOSOTROS</h1>
+                <h3>Te contamos nuestra historia....</h3>
+                <p class="col-11">Somos una panaderia familiar con más 60 años de historia. 
                     Un grupo humano dedicado a la elabroacion y
                     venta de panificados y sus derivados. 
                     Mantenemos las clasicas recetas heredadas de nuestros antecesores y le 
@@ -33,23 +33,27 @@
                     Estamos comprometidos a sostener la calidad de nuestros productos utilizando
                     la mejor materia prima para satisfacer a nuestros clientes. 
                     Nuestro obejtivo es que tengas todos los dias en tu mesa el mejor pan de Zona Oeste.
-                </P>
+                  </p>
+            
             </div>
-        </section>
-        <section class="contacto" id="contact">
-            <h2>CONTACTO</h2>
-            <div class="ubicacion">
-                <h2>Ubicación</h2> 
-                <p>JOSE MARIA PAZ 2539, ITUZAINGO</p>
-                <P>Martes a Domingos de 7.30 a 13hs y  16.30 a 20hs</P>
+            <div class="abajo row">
+                <div class="contacto col-6" id="contact">
+                    <h2>Ubicacion</h2>
+                    <p>JOSE MARIA PAZ 2539, ITUZAINGO</p>
+                    <P>Martes a Domingos de 7.30 a 13hs y  16.30 a 20hs</P>
+
+
+                </div>
+                <div class="redes col-6">
+                    <p>CONTACTO</p>
+                    <a href="#"><img src="Imagenes/WhatsappI.png" class="Whatsapp"></a>
+                    <a href="#">+54 1122334455</a>
+                    <a href="#"><img src="Imagenes/ig.webp" class="Instagram"></a>
+                    <a href="#">@panaderialaflor</a>
+                </div>
             </div>
-            <div class="redes">
-                <a href="#"><img src="Imagenes/WhatsappI.png" class="Whatsapp"></a>
-                <a href="#">+54 1122334455</a>
-                <a href="#"><img src="Imagenes/ig.webp" class="Instagram"></a>
-                <a href="#">@panaderialaflor</a>
+
             </div>
-        </section>
-        
+        </div>
     </body>
 </html>
