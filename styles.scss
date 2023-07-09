@@ -1,0 +1,232 @@
+//Colores
+$fondo1: #debd8f;
+$fondo2: #d1a267;
+$texto1: #483C32;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    background: $fondo1
+  }
+
+.logo{
+  width: 60vw;
+  display: block
+}
+
+.titulo{
+  font-size: 50px;
+  color: $texto1;
+  text-align: center;
+}
+
+.header{
+      position: inline;
+      top: 0;
+      min-height: 75px;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: $fondo2;
+      width: 100vw;
+      height: 100px;
+      border: 1px solid $texto1;
+  }
+
+nav{
+    font-weight: 400;
+}
+.nav-bar ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+  list-style: none;
+  font-size: 15px;
+}
+
+.nav-link{
+  font-size: 25px;
+}
+
+.nosotros{
+  height: 30%;
+  position: relative;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.nosotros h1{
+  padding-top:  30px;
+  font-size: 40px;
+  color: $texto1;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.nosotros p{
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 30px;
+  max-width: 80%;
+}
+
+.productos{
+  margin-top: 50px;
+  color: $texto1;
+  background-color: $fondo2;
+  border: 1px solid black;
+}
+
+.productos h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.productos ul{
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-bottom: 15px;
+}
+
+.productos li{
+  margin: 10px;
+  font-size: 25px;
+  padding-bottom: 3px;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin-top: 0;
+  height: 300px;
+}
+
+.contacto h2{
+  font-size: 30px;
+  color: $texto1;
+  padding: 10px;
+}
+
+.contacto p{
+  padding: 10px;
+}
+
+hr{
+  border-color: $texto1;
+  background-color: $texto1;
+  height: 3px;
+}
+
+.redes ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.redes img{
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+}
+
+.redes a{
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.redes a:hover{
+  color: $texto1;
+  text-decoration: underline;
+}
+
+.catalogo {
+    text-align: center;
+    padding: 32px;
+    background-color: $fondo2;;
+    color: $texto1;
+    border-bottom: 4px solid $texto1;
+  }
+
+  .catalogo h1{
+    display: inline;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 20PX;
+  }
+
+  h3{
+    text-align: center;
+    background-color: $fondo2;;
+    color: $texto1;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  footer{
+    padding: 20px;
+  }
+  
+  button{
+    border: 1px solid $texto1;
+    background-color: $fondo2;
+    border-radius: 5px;
+    }
+a{
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px;
+    color: $texto1;
+}
+
+a:hover{
+  color: $fondo1;
+}
+
+button:hover{
+  background-color: $texto1;
+}
+
+@media screen and (max-width: 700px){
+  .header{
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
