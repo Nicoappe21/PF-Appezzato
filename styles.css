@@ -32,7 +32,8 @@ body {
   background-color: #d1a267;
   width: 100vw;
   height: 100px;
-  border: 1px solid #483C32;
+  border-top: 1px solid #483C32;
+  border-bottom: 1px solid #483C32;
 }
 
 nav {
@@ -61,12 +62,23 @@ li {
 }
 
 .nosotros {
-  height: 30%;
+  height: 80%;
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   justify-items: center;
+}
+
+.texto-nosotros {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.panadero {
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
 }
 
 .nosotros h1 {
@@ -77,10 +89,11 @@ li {
   margin-left: 30px;
 }
 .nosotros p {
+  width: 100%;
+  display: inline-block;
   font-size: 20px;
   margin: 10px;
   margin-left: 30px;
-  max-width: 80%;
 }
 
 .productos {
@@ -88,6 +101,7 @@ li {
   color: #483C32;
   background-color: #d1a267;
   border: 1px solid black;
+  margin-right: 0;
 }
 .productos h2 {
   margin-top: 20px;
@@ -225,9 +239,13 @@ a {
 
 @media screen and (max-width: 700px) {
   .header {
-    height: 150px;
+    height: 200px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  .nosotros {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

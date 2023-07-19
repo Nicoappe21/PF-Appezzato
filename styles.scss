@@ -37,12 +37,15 @@ body {
     background-color: $fondo2;
     width: 100vw;
     height: 100px;
-    border: 1px solid $texto1;
+    border-top: 1px solid $texto1;
+    border-bottom: 1px solid $texto1;
 }
 
 nav{
     font-weight: 400;
 }
+
+
 .nav-bar{
     ul{
     width: 35vw;
@@ -68,12 +71,23 @@ li{
 
 
 .nosotros{
-    height: 30%;
+    height: 80%;
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     justify-items: center;
+}
+
+.texto-nosotros{
+    display: flex;
+    flex-direction: column;
+    width: 80%
+}
+
+.panadero{
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
 }
 
 .nosotros {
@@ -85,10 +99,11 @@ li{
     margin-left: 30px;
 }
     p{
+    width: 100%;
+    display: inline-block;
     font-size: 20px;
     margin: 10px;
-    margin-left: 30px;
-    max-width: 80%;
+    margin-left: 30px
 }
 }
 
@@ -97,6 +112,7 @@ li{
     color: $texto1;
     background-color: $fondo2;
     border: 1px solid black;
+    margin-right: 0;
 h2{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -236,9 +252,12 @@ a{
 
 @media screen and (max-width: 700px){
 .header{
-    height: 150px;
+    height: 200px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
-
+.nosotros{
+    flex-direction: column;
+    justify-content: center;
+}
 }
