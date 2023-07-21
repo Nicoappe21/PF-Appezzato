@@ -113,6 +113,8 @@ li{
     background-color: $fondo2;
     border: 1px solid black;
     margin-right: 0;
+    display: flex;
+    flex-direction: row;
 h2{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -130,6 +132,15 @@ li{
     font-size: 25px;
     padding-bottom: 3px;
 }
+}
+
+.productos-lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.panaderia{
+    margin-left: 120px;
 }
 
 .contacto{
@@ -260,4 +271,11 @@ a{
     flex-direction: column;
     justify-content: center;
 }
+.productos{
+    flex-direction: column;
 }
+.panaderia{
+    margin-left: 0;
+}
+}
+
